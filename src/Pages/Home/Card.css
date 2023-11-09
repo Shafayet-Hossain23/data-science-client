@@ -1,0 +1,9 @@
+.card-bg {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.main-bg {
+    /* background-color: violet; */
+    /* background-color: rgba(13, 1, 1, 0.1); */
+}

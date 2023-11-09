@@ -1,0 +1,6 @@
+.imgContainer:hover {
+    box-shadow: 5px 5px 40px grey;
+    transition-duration: 500ms;
+
+
+}

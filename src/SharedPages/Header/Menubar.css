@@ -1,0 +1,70 @@
+.hoverDesign {
+    /* border-bottom: 3px solid white; */
+}
+
+.hoverDesign:hover {
+    transform: scale(1.1);
+    /* Set the initial zoom level */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+
+
+
+}
+
+
+
+.navlink {
+    /* margin-top: 3px; */
+    border-bottom: 3px solid white;
+}
+
+/* dropdown menu */
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 260px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    border: 0.4px solid rgb(185, 185, 185);
+    /* border-top: none; */
+
+}
+
+/* Links inside the dropdown */
+.linkCss {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+    background-color: #42409E;
+    color: white;
+}
+
+.linkCss:hover {
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* glass  */
+.glass-background {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+}

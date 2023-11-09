@@ -1,0 +1,49 @@
+.verticleLine {
+    border-left: 1px solid rgb(194, 193, 193);
+    height: 5px;
+}
+
+.verticleLine2 {
+    border-left: 1px solid rgb(194, 193, 193);
+    height: 10px;
+}
+
+/*  */
+.dropbtn {
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content .hoverMenu {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .hoverMenu:hover {
+    background-color: #42409E;
+    color: white;
+}
+
+.show {
+    display: block;
+}
